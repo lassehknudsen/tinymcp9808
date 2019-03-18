@@ -63,8 +63,8 @@ if ((uppertempbyte & 0x10) == 0x10):
    print("Temperature: " + str(tempperatureminus))
 else:
    tempperatureplus = ( uppertempbyte * 16 + lowertempbyte /16)
-   alternatetemperatureplus = (lowertempbyte<<4)
-   alternatetemperatureplus = alternatetemperatureplus>>8
+  # alternatetemperatureplus = (lowertempbyte<<4)
+  # alternatetemperatureplus = alternatetemperatureplus>>8
 
  #  print("Alternate Positive Temperature: " + str(alternatetemperatureplus))
 
